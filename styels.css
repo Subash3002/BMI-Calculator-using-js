@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(bg2.webp);
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(211, 221, 215, 0.43);
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.input-container {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: rgba(0, 0, 0, 0.667);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: rgb(7, 33, 2);
+}
